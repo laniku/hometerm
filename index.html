@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link
+      rel="icon"
+      href="https://apps.kde.org/app-icons/org.kde.konsole.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
+    <title>SubspaceWM</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <center><span class="pcname">SubspaceWM</span>:~</center>
+      <p id="clock"><span id="day">Mon</span> 00:00 AM</p>
+    </div>
+    <div class="container">
+      <div class="window full">
+        <br />
+        [<span class="pcname">lucas@delta12</span> ~]$ paste
+        <br />
+        <form action="http://ptpb.pw" method="post" id="pasteform">
+          <textarea name="" id="paste">
+// Paste here
+// Crtl+O to upload</textarea
+          >
+        </form>
+      </div>
+      <div class="window two-thirds" style="overflow-y:scroll">
+        <p id="result"></p>
+        [<span class="pcname">lucas@delta12</span> ~]$
+        <input type="text" id="terminal" autofocus />
+      </div>
+      <div class="window one-third">
+        <br />
+        [<span class="pcname">lucas@delta12</span> ~]$ links
+        <br />
+        <table>
+          <tr>
+            <td><a href="https://youtube.com">Youtube</a></td>
+            <td><a href="https://gmail.com">Gmail</a></td>
+            <td><a href="https://github.com">Github</a></td>
+            <td><a href="https://cdn.glitch.com/1645e2a2-e579-4e5f-bd24-efb7bcf988bb%2FRPM-puntillol59-1-1.x86_64.rpm">RPM</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://puntillol59.github.io/Bento">Startpage</a></td>
+            <td><a href="https://subspace.ekmand.app">Subspace</a></td>
+            <td><a href="http://glitch.me">Glitch</a></td>
+            <td><a href="http://open.spotify.com">Spotify</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://mega.co.nz">Mega</a></td>
+            <td><a href="https://drive.google.com">Google Drive</a></td>
+            <td><a href="https://imgur.com">Imgur</a></td>
+            <td><a href="http://projectvortex.glitch.me">Vortex</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
